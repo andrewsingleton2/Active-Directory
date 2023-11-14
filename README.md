@@ -1,4 +1,4 @@
-# Active-Directory
+# Active Directory Home Lab Project
 ###### VirtualBox Download: https://www.virtualbox.org/wiki/Downloads
 ###### Windows Server 2019 ISO Download: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
 ###### Windows 10 ISO Download: https://www.microsoft.com/en-us/software-download/windows10
