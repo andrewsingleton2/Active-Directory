@@ -21,5 +21,6 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 5th Step: Let the VM install.
 ![image](https://github.com/andrewsingleton2/Active-Directory/assets/150304510/2ae8840b-3b19-4b19-b78c-5ba78530cd6c)
 
-6th Step: Set your credentials
+6th Step: Set your credentials.
+
 ![image](https://github.com/andrewsingleton2/Active-Directory/assets/150304510/9db1e6ed-caa7-413f-bb00-46dbf219c50d)
