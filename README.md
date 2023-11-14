@@ -12,6 +12,7 @@ Tasks Performed:
 ## Steps:
 
 1st: Download the Windows Server 2019 ISO disk and create the VM in VirtualBox, this will be your Domain Controller.
+
 ![image](https://github.com/andrewsingleton2/Active-Directory/assets/150304510/3c117755-b5f5-4965-b6f8-4b1f376a8e1b)
 
 2nd Step: Make sure you add two network adapters in your DC's settings. (Set the first adapter to NAT to allow the VM to connect to your home network and the second adapter set to Internal Network for the VM machine)
