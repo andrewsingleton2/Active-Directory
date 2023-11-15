@@ -20,6 +20,9 @@ I installed and configured Active Directory for 1,000 users, to create and simul
 ### Here's a Screenshot of the Users Created in Active Directory During this Project
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/cf837817-6179-44fe-97f0-ec4c7cda0dd1)
 
+### Here are two Screenshots of a Windows Client connecting to the Internal DC network and being able to access the internet through the domain.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/5ce77658-4db0-4578-a5d8-377a7e333b4b)
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/033b978a-2bbe-4974-8d01-66e9a20aabcc)
 
 ### (Downloads)
 ###### VirtualBox Download: https://www.virtualbox.org/wiki/Downloads
@@ -162,3 +165,12 @@ You can also find your account in the Active Directory.
 
 3rd Step: Start the CLIENT1 VM > Install without a product key > Windows 10 Pro > Accept > Custom > Let it install.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/dcd97761-bbe0-41d1-b8bb-086be2160425)
+
+4th Step: Create a user account "user", no password is needed.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/524a513f-5ba5-4981-848d-b23a97edc7d3)
+
+5th Step: As you can see, CLIENT1 has successfully connected to the domain controller! You can also do a test ping to see if it is working.ping
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/5ce77658-4db0-4578-a5d8-377a7e333b4b)
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/9772ac13-676c-4a19-8ab1-f2748bce14c2)
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/033b978a-2bbe-4974-8d01-66e9a20aabcc)
