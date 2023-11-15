@@ -9,7 +9,7 @@ Tasks Performed:
 
 • Installed Windows Server 2019 
 
-# Steps:
+# Steps I Took to Complete This Project:
 
 ## Installing Windows Server 2019:
 
