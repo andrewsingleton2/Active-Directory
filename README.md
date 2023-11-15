@@ -73,5 +73,6 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/295078a9-63a2-480c-bcc5-e31f8e8ee3a0)
 
 15th Step: Right-click your name > properties > the "member of" tab > add > type "domain admins" and click check names > then apply.
+
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/d3646129-2e85-4080-b1e2-06f0e6f128a1)
 
