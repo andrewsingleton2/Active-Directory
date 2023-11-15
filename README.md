@@ -124,7 +124,9 @@ Then click on Start (windows icon) > Windows PowerShell > right-click Windows Po
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/fda545ee-c12a-453b-85f8-71c59fdae808)
 
-2nd Step: Click on the folder in the top left "Open Script" > click 1_CREATE_USERS
+2nd Step: Click on the folder in the top left "Open Script" > click 1_CREATE_USERS > Open.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/e39e56ae-2eb2-4847-8a42-5d10bb9b8c45)
 
+3rd Step: Turn off the security feature preventing the script from running, by typing Set-ExecutionPolicy Unrestricted > then click Yes to All.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/366a2dbc-b160-4a18-a59b-32bbfe91e482)
