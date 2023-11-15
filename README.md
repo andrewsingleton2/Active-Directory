@@ -5,8 +5,11 @@ I installed and configured Active Directory for 1,000 users.
 Tasks Performed:
 
 • Installed Windows Server 2019 and configured it as the domain controller.
+
 • Installed and Configured Active Directory, added myself as an Admin.
+
 • Installed and Configured RAS/NAT.
+
 • Setting Up A DHCP Server. (Allows Windows 10 users to access and browse the internet)
 
 ### (Downloads)
