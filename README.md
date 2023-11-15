@@ -7,6 +7,7 @@ Tasks Performed:
 • Installed Windows Server 2019 and configured it as the domain controller.
 • Installed and Configured Active Directory, added myself as an Admin.
 • Installed and Configured RAS/NAT.
+• Setting Up A DHCP Server. (Allows Windows 10 users to access and browse the internet)
 
 ### (Downloads)
 ###### VirtualBox Download: https://www.virtualbox.org/wiki/Downloads
@@ -78,7 +79,7 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/d3646129-2e85-4080-b1e2-06f0e6f128a1)
 
-16th Step: Sign out of your domain account and log in as a new user, into the admin account you just created for yourself.
+16th Step: Sign out of your domain account and click "Other User", and log into the admin account you just created for yourself.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/e217ac4f-8e7a-4d55-8865-764a773b0cbb)
 
@@ -92,3 +93,6 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/b69b6ff4-5163-478f-b391-4a4e299128a0)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/9253c806-ae1e-4657-8ddc-cf5312ec4100)
+
+## Setting Up A DHCP Server:
+
