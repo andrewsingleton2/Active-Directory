@@ -1,4 +1,4 @@
-# 🧑🏾‍💻 Active Directory Home Lab Project 🗃️
+# 🖥️ Active Directory Home Lab Project 🗃️
 
 I installed and configured Active Directory for 1,000 users, to create and simulate a Corporate Network.
 
