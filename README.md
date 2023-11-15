@@ -51,7 +51,7 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/aef26b89-275e-4088-8c08-33eb81448b98)
 
-## Installing Active Directory:
+## Installing Active Directory and Configuring:
 
 10th Step: Click "Add roles and features", then select Active Directory Domain Services when selecting Server Roles.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/1d3f849b-1746-462e-81c6-b604c22e0a92)
@@ -64,4 +64,14 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/f57916d0-22e6-4025-a08c-0a4111ecb140)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/6ec3e872-0017-4d04-81fd-2db2b85db891)
 
+13th Step: Click Active Directory Users and Computers > right-click mydomain.com > new > organization unit > and create a unit for admins, as seen in the screenshot below.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/e837fffa-7726-43bc-b579-96ced87e24e7)
+
+14th Step: Right-click _ADMINS (or what you named your admin org unit as) > new > user, and create your own personal admin account. Set your password and uncheck "User must change password at next login" and check "Password never expires".
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/2742898d-1c56-4d4d-8ce5-01092565f42c)
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/295078a9-63a2-480c-bcc5-e31f8e8ee3a0)
+
+15th Step: Right-click your name > properties > the "member of" tab > add > type "domain admins" and click check names > then apply.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/d3646129-2e85-4080-b1e2-06f0e6f128a1)
 
