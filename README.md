@@ -43,7 +43,7 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/bff961b6-7e6a-4b26-b0c5-d99711163f93)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/0e0d8d1e-3829-42fc-9a1b-2bb42838b376)
 
-9th Step: Select the "Internal" network and click properties, then IPv4 and enter the IP information provided in the screenshot.
+9th Step: Select the "Internal" network and click properties, then IPv4 and enter the IP information provided in the screenshot, then click ok. (Once AD is installed, the server will use itself as the DNS)
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/aef26b89-275e-4088-8c08-33eb81448b98)
 
