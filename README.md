@@ -2,7 +2,7 @@
 
 I installed and configured Active Directory for 1,000 users.
 
-Tasks Performed:
+### Tasks Performed:
 
 • Installed Windows Server 2019 and configured it as the domain controller.
 
