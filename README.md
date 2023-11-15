@@ -17,12 +17,15 @@ I installed and configured Active Directory for 1,000 users, to create and simul
 • Created a Client Windows VM and connected it to the domain controller's internal network.
 
 
-### Here's a Screenshot of the Users Created in Active Directory During this Project
+### Here, you can see a screenshot of the users created in Active Directory during this project.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/cf837817-6179-44fe-97f0-ec4c7cda0dd1)
 
-### Here Are Two Screenshots of a Windows Client Connecting to the Internal DC Network and Being Able to Access The Internet Through the Domain.
+### Here are two screenshots of our windows computer (CLIENT1) connecting to the internal network and being able to access the internet through the domain.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/5ce77658-4db0-4578-a5d8-377a7e333b4b)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/033b978a-2bbe-4974-8d01-66e9a20aabcc)
+
+### You can also see CLIENT1 (another Windows VM) added to the list of computers that can connect to the network.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/1a64fd5c-f112-4ed4-8880-84e9f868cbea)
 
 ### (Downloads)
 ###### VirtualBox Download: https://www.virtualbox.org/wiki/Downloads
