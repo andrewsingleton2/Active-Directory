@@ -19,7 +19,7 @@ I installed and configured Active Directory for 1,000 users.
 
 # These Are The Steps I Took To Complete This Project.
 
-## Installing Windows Server 2019:
+# Installing Windows Server 2019:
 
 1st Step: Download the Windows Server 2019 ISO disk and create the VM in VirtualBox, this will be your Domain Controller.
 
@@ -57,7 +57,7 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/aef26b89-275e-4088-8c08-33eb81448b98)
 
-## Installing and Configuring Active Directory:
+# Installing and Configuring Active Directory:
 
 10th Step: Click "Add roles and features", then select Active Directory Domain Services when selecting Server Roles.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/1d3f849b-1746-462e-81c6-b604c22e0a92)
@@ -86,7 +86,7 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/e217ac4f-8e7a-4d55-8865-764a773b0cbb)
 
-## Installing and Configuring RAS/NAT
+# Installing and Configuring RAS/NAT
 17th Step: Go back to Server Manager and click "add roles and features" > select "Remote Access" > check "Routing" > then Install.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/dc729d7d-03c8-4954-b410-e929f5c7be87)
@@ -97,5 +97,9 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/b69b6ff4-5163-478f-b391-4a4e299128a0)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/9253c806-ae1e-4657-8ddc-cf5312ec4100)
 
-## Setting Up A DHCP Server:
+# Setting Up A DHCP Server:
+
+19th Step: Go back to the server manager > click "Add roles and features" > add "DHCP Server" > and install.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/79002618-486e-4057-b211-d347c4d428b4)
 
