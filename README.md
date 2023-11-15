@@ -59,40 +59,40 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 # Installing and Configuring Active Directory:
 
-10th Step: Click "Add roles and features", then select Active Directory Domain Services when selecting Server Roles.
+1st Step: Click "Add roles and features", then select Active Directory Domain Services when selecting Server Roles.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/1d3f849b-1746-462e-81c6-b604c22e0a92)
 
-11th Step: Click Install and close once the installation is complete.
+2nd Step: Click Install and close once the installation is complete.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/ca7b1f9a-e7c0-44ea-b906-7f38ab900d79)
 
-12th Step: Click "Promote this server to a domain controller", then name the domain "mydomain.com" and then install. Once it's installed the VM will restart.
+3rd Step: Click "Promote this server to a domain controller", then name the domain "mydomain.com" and then install. Once it's installed the VM will restart.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/f57916d0-22e6-4025-a08c-0a4111ecb140)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/6ec3e872-0017-4d04-81fd-2db2b85db891)
 
-13th Step: Click Active Directory Users and Computers > right-click mydomain.com > new > organization unit > and create a unit for admins, as seen in the screenshot below.
+4th Step: Click Active Directory Users and Computers > right-click mydomain.com > new > organization unit > and create a unit for admins, as seen in the screenshot below.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/e837fffa-7726-43bc-b579-96ced87e24e7)
 
-14th Step: Right-click _ADMINS (or what you named your admin org unit as) > new > user, and create your own personal admin account. Set your password and uncheck "User must change password at next login" and check "Password never expires".
+5th Step: Right-click _ADMINS (or what you named your admin org unit as) > new > user, and create your own personal admin account. Set your password and uncheck "User must change password at next login" and check "Password never expires".
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/2742898d-1c56-4d4d-8ce5-01092565f42c)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/295078a9-63a2-480c-bcc5-e31f8e8ee3a0)
 
-15th Step: Right-click your name > properties > the "member of" tab > add > type "domain admins" and click check names > then apply.
+6th Step: Right-click your name > properties > the "member of" tab > add > type "domain admins" and click check names > then apply.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/d3646129-2e85-4080-b1e2-06f0e6f128a1)
 
-16th Step: Sign out of your domain account and click "Other User", and log into the admin account you just created for yourself.
+7th Step: Sign out of your domain account and click "Other User", and log into the admin account you just created for yourself.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/e217ac4f-8e7a-4d55-8865-764a773b0cbb)
 
 # Installing and Configuring RAS/NAT
-17th Step: Go back to Server Manager and click "add roles and features" > select "Remote Access" > check "Routing" > then Install.
+1st Step: Go back to Server Manager and click "add roles and features" > select "Remote Access" > check "Routing" > then Install.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/dc729d7d-03c8-4954-b410-e929f5c7be87)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/d94174c7-04c7-47c7-b5e0-347ccd48a5a9)
 
-18th Step: Go to Tools > click Routing and Remote Access > right-click DC (local) and click configure and enable > select your internet interface and click next and finish.
+2nd Step: Go to Tools > click Routing and Remote Access > right-click DC (local) and click configure and enable > select your internet interface and click next and finish.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/b69b6ff4-5163-478f-b391-4a4e299128a0)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/9253c806-ae1e-4657-8ddc-cf5312ec4100)
