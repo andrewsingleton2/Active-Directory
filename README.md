@@ -9,7 +9,7 @@ Tasks Performed:
 
 • Installed Windows Server 2019 
 
-# Steps I Took to Complete This Project:
+# These Are The Steps I Took To Complete This Project.
 
 ## Installing Windows Server 2019:
 
@@ -49,7 +49,7 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/aef26b89-275e-4088-8c08-33eb81448b98)
 
-## Installing Active Directory
+## Installing Active Directory:
 
 10th Step: Click "Add roles and features", then select Active Directory Domain Services when selecting Server Roles.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/1d3f849b-1746-462e-81c6-b604c22e0a92)
