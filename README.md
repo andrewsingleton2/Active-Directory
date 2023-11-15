@@ -54,3 +54,12 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 10th Step: Click "Add roles and features", then select Active Directory Domain Services when selecting Server Roles.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/1d3f849b-1746-462e-81c6-b604c22e0a92)
 
+11th Step: Click Install and close once the installation is complete.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/ca7b1f9a-e7c0-44ea-b906-7f38ab900d79)
+
+12th Step: Click "Promote this server to a domain controller", then name the domain "mydomain.com" and then install. Once it's installed the VM will restart.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/f57916d0-22e6-4025-a08c-0a4111ecb140)
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/6ec3e872-0017-4d04-81fd-2db2b85db891)
+
+
