@@ -4,7 +4,9 @@ I installed and configured Active Directory for 1,000 users.
 
 Tasks Performed:
 
-• Installed Windows Server 2019
+• Installed Windows Server 2019 and configured it as the domain controller.
+• Installed and Configured Active Directory, added myself as an Admin.
+• Installed and Configured RAS/NAT.
 
 ### (Downloads)
 ###### VirtualBox Download: https://www.virtualbox.org/wiki/Downloads
@@ -51,7 +53,7 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/aef26b89-275e-4088-8c08-33eb81448b98)
 
-## Installing Active Directory and Configuring:
+## Installing and Configuring Active Directory:
 
 10th Step: Click "Add roles and features", then select Active Directory Domain Services when selecting Server Roles.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/1d3f849b-1746-462e-81c6-b604c22e0a92)
@@ -76,3 +78,17 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/d3646129-2e85-4080-b1e2-06f0e6f128a1)
 
+16th Step: Sign out of your domain account and log in as a new user, into the admin account you just created for yourself.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/e217ac4f-8e7a-4d55-8865-764a773b0cbb)
+
+## Installing and Configuring RAS/NAT
+17th Step: Go back to Server Manager and click "add roles and features" > select "Remote Access" > check "Routing" > then Install.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/dc729d7d-03c8-4954-b410-e929f5c7be87)
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/d94174c7-04c7-47c7-b5e0-347ccd48a5a9)
+
+18th Step: Go to Tools > click Routing and Remote Access > right-click DC (local) and click configure and enable > select your internet interface and click next and finish.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/b69b6ff4-5163-478f-b391-4a4e299128a0)
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/9253c806-ae1e-4657-8ddc-cf5312ec4100)
