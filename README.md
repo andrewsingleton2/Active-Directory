@@ -2,6 +2,8 @@
 
 I installed and configured Active Directory for 1,000 users.
 
+Goal: Simulating the Creation of a Corporate Network.
+
 ### Tasks Performed:
 
 • Installed Windows Server 2019 and configured it as the domain controller.
@@ -148,3 +150,14 @@ You can also find your account in the Active Directory.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/464d8adb-10d5-4cd6-ab8e-c3babf08e8a5)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/3f5ac6b6-7b70-47f5-a118-d666d8f078b2)
+
+# Create the CLIENT1 in VirtualBox using the Windows 10 ISO
+
+1st Step: Create the Client in VirtualBox using the Windows 10 ISO
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/f675a71a-1294-4df5-b040-3c634280654a)
+
+2nd Step: Go to the CLIENT1 VM settings and change network adapter 1 to Internal Network so it can connect to the DC.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/94f4e7f1-703b-4256-8bdb-4db2ebedb76e)
+
+3rd Step: Start the CLIENT1 VM > Install without a product key > Windows 10 Pro > Accept > Custom > Let it install.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/dcd97761-bbe0-41d1-b8bb-086be2160425)
