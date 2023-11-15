@@ -1,8 +1,6 @@
 # Active Directory Home Lab Project
 
-I installed and configured Active Directory for 1,000 users.
-
-Goal: Simulating the Creation of a Corporate Network.
+I installed and configured Active Directory for 1,000 users, to create and simulate a Corporate Network.
 
 ### Tasks Performed:
 
