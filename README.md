@@ -1,13 +1,15 @@
 # Active Directory Home Lab Project
-###### VirtualBox Download: https://www.virtualbox.org/wiki/Downloads
-###### Windows Server 2019 ISO Download: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
-###### Windows 10 ISO Download: https://www.microsoft.com/en-us/software-download/windows10
 
 I installed and configured Active Directory for 1,000 users.
 
 Tasks Performed:
 
-• Installed Windows Server 2019 
+• Installed Windows Server 2019
+
+### (Downloads)
+###### VirtualBox Download: https://www.virtualbox.org/wiki/Downloads
+###### Windows Server 2019 ISO Download: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
+###### Windows 10 ISO Download: https://www.microsoft.com/en-us/software-download/windows10
 
 # These Are The Steps I Took To Complete This Project.
 
