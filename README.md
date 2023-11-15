@@ -10,7 +10,7 @@ I installed and configured Active Directory for 1,000 users.
 
 • Installed and Configured RAS/NAT.
 
-• Setting Up A DHCP Server. (Allows Windows 10 users to access and browse the internet)
+• Setting Up A DHCP Server. (Allows Windows 10 users to automatically get an IP to access and browse the internet)
 
 ### (Downloads)
 ###### VirtualBox Download: https://www.virtualbox.org/wiki/Downloads
@@ -99,7 +99,32 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 # Setting Up A DHCP Server:
 
-19th Step: Go back to the server manager > click "Add roles and features" > add "DHCP Server" > and install.
+1st Step: Go back to the server manager > click "Add roles and features" > add "DHCP Server" > and install.
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/79002618-486e-4057-b211-d347c4d428b4)
+
+2nd Step: Click tools > DHCP > right-click IPv4 > New Scope > name the scope "172.16.0.100-200" > list the start IP, end IP, and subnet mask as it is and the screenshot below and click next.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/29410f50-3b5f-42e0-8b89-6ed436f13e3f)
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/d0876985-4dfc-4796-865e-ae1c15f43d45)
+
+3rd Step: Enter the DC IP address (172.16.0.1) and click add, and add the IP 172.16.0.1 if it's not already there, then finish.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/a1b4bcd7-8eec-45b6-b2aa-d3d678d66e22)
+
+4th Step: Right-click dc.mydomain.com > click Authorize > right-click dc.mydomain.com again and click Refresh.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/5aeb36ac-ee05-4469-b309-bc4cd30aaa16)
+
+# Downloading a PowerShell Script to Create Sample Accounts on Active Directory
+
+1st Step: Download the script here and save to your desktop. https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbk0yZWs5NURNTUtXLS14cmNuaVZfMnBqeUpKQXxBQ3Jtc0tuWTZCcExSYU1aQmtyelQ5eml6XzlBbGkzRU5FWi0tVlhNRC0xUnNYTlU5LWpNbXNMTW1faGtPQjRpZXI4SWtOdW1NaDFTSnJEM2I5SmJhalBZOWFsX1ZWY3NTa2swMWd0UWJqOUdWNTgzakItWW4tcw&q=https%3A%2F%2Fgithub.com%2Fjoshmadakor1%2FAD_PS%2Farchive%2Frefs%2Fheads%2Fmaster.zip&v=MHsI8hJmggI
+
+Then click on Start (windows icon) > Windows PowerShell > right-click Windows PowerShell ISE > more > click Run as administrator
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/fda545ee-c12a-453b-85f8-71c59fdae808)
+
+2nd Step: Click on the folder in the top left "Open Script" > click 1_CREATE_USERS
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/e39e56ae-2eb2-4847-8a42-5d10bb9b8c45)
 
