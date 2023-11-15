@@ -34,8 +34,12 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Active-Directory/assets/150304510/9db1e6ed-caa7-413f-bb00-46dbf219c50d)
 
-7th Step: Go to your ethernet settings and select "Change adapter options". Your network adapters should be named Ethernet by default, to make it easier you can name your external network "INTERNET" (identified from 10.0.0.0 ip), and your internal network "Internal" (identified by any class B public IP range that your VM has). You can locate these IP's when right-clicking the adapter and selecting "Status", then "Details".
+7th Step: (Optional) Go to your ethernet settings and select "Change adapter options". Your network adapters should be named Ethernet by default, to make it easier you can name your external network "INTERNET" (identified from 10.x.x.x ip), and your internal network "Internal" (identified by any class B public IP range that your VM has). You can locate these IP's when right-clicking the adapter and selecting "Status", then "Details".
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/bff961b6-7e6a-4b26-b0c5-d99711163f93)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/0e0d8d1e-3829-42fc-9a1b-2bb42838b376)
+
+8th Step: (Optional) To make it easier to identify, you can rename the PC to "DC" for domain controller, instead of keeping it the default randomized name.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/9c14caac-c1be-4b48-b559-06f3a128bf58)
 
