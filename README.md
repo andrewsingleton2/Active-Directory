@@ -1,4 +1,4 @@
-# Active Directory Home Lab Project
+# 🧑🏾‍💻 Active Directory Home Lab Project 🗃️
 
 I installed and configured Active Directory for 1,000 users, to create and simulate a Corporate Network.
 
@@ -20,7 +20,7 @@ I installed and configured Active Directory for 1,000 users, to create and simul
 ### Here's a Screenshot of the Users Created in Active Directory During this Project
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/cf837817-6179-44fe-97f0-ec4c7cda0dd1)
 
-### Here are two Screenshots of a Windows Client connecting to the Internal DC network and being able to access the internet through the domain.
+### Here Are Two Screenshots of a Windows Client Connecting to the Internal DC Network and Being Able to Access The Internet Through the Domain.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/5ce77658-4db0-4578-a5d8-377a7e333b4b)
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/033b978a-2bbe-4974-8d01-66e9a20aabcc)
 
