@@ -14,7 +14,7 @@ I installed and configured Active Directory for 1,000 users.
 
 • Downloaded and Ran a PowerShell Script to Create over 1,000 Sample User Accounts on Active Directory.
 
-## Screenshot of Users Created in Active Directory
+### Here's a Screenshot of the User List Created in Active Directory During this Project
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/cf837817-6179-44fe-97f0-ec4c7cda0dd1)
 
 
