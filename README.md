@@ -6,7 +6,7 @@ I installed and configured Active Directory for 1,000 users.
 
 • Installed Windows Server 2019 and configured it as the domain controller.
 
-• Installed and Configured Active Directory, added myself as an Admin.
+• Installed and Configured Active Directory; added myself as an Admin.
 
 • Installed and Configured RAS/NAT.
 
