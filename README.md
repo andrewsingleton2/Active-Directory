@@ -23,7 +23,7 @@ I installed and configured Active Directory for 1,000 users.
 ###### Windows Server 2019 ISO Download: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
 ###### Windows 10 ISO Download: https://www.microsoft.com/en-us/software-download/windows10
 
-# These Are The Steps I Took To Complete This Project.
+# Here Are The Steps I've Created To Complete This Project.
 
 # Installing Windows Server 2019:
 
