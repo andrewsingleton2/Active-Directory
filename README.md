@@ -8,13 +8,16 @@ Goal: Simulating the Creation of a Corporate Network.
 
 • Installed Windows Server 2019 and configured it as the domain controller.
 
-• Installed and Configured Active Directory; added myself as an Admin.
+• Installed and Configured Active Directory; created an Admin account for myself.
 
-• Installed and Configured RAS/NAT.
+• Installed and Configured RAS/NAT on the domain controller.
 
 • Set Up A DHCP Server. (Allows Windows 10 users to automatically get an IP to access and browse the internet)
 
 • Downloaded and Ran a PowerShell Script to Create over 1,000 Sample User Accounts on Active Directory.
+
+• Created a Client Windows VM and connected it to the domain controller's internal network.
+
 
 ### Here's a Screenshot of the Users Created in Active Directory During this Project
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/cf837817-6179-44fe-97f0-ec4c7cda0dd1)
