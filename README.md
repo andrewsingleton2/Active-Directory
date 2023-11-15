@@ -9,9 +9,11 @@ Tasks Performed:
 
 • Installed Windows Server 2019 
 
-## Steps:
+# Steps:
 
-1st: Download the Windows Server 2019 ISO disk and create the VM in VirtualBox, this will be your Domain Controller.
+## Installing Windows Server 2019:
+
+1st Step: Download the Windows Server 2019 ISO disk and create the VM in VirtualBox, this will be your Domain Controller.
 
 ![image](https://github.com/andrewsingleton2/Active-Directory/assets/150304510/3c117755-b5f5-4965-b6f8-4b1f376a8e1b)
 
@@ -47,4 +49,8 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/aef26b89-275e-4088-8c08-33eb81448b98)
 
+## Installing Active Directory
+
+10th Step: Click "Add roles and features", then select Active Directory Domain Services when selecting Server Roles.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/1d3f849b-1746-462e-81c6-b604c22e0a92)
 
