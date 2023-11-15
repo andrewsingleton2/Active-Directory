@@ -10,7 +10,9 @@ I installed and configured Active Directory for 1,000 users.
 
 • Installed and Configured RAS/NAT.
 
-• Setting Up A DHCP Server. (Allows Windows 10 users to automatically get an IP to access and browse the internet)
+• Set Up A DHCP Server. (Allows Windows 10 users to automatically get an IP to access and browse the internet)
+
+• Downloaded and Ran a PowerShell Script to Create over 1,000 Sample User Accounts on Active Directory.
 
 ### (Downloads)
 ###### VirtualBox Download: https://www.virtualbox.org/wiki/Downloads
@@ -116,7 +118,7 @@ MAKE SURE to select "Standard Desktop Experience" when booting the VM, otherwise
 
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/5aeb36ac-ee05-4469-b309-bc4cd30aaa16)
 
-# Downloading a PowerShell Script to Create Sample Accounts on Active Directory
+# Downloading and Running a PowerShell Script to Create over 1,000 Sample User Accounts on Active Directory
 
 1st Step: Download the script here and save to your desktop. https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbk0yZWs5NURNTUtXLS14cmNuaVZfMnBqeUpKQXxBQ3Jtc0tuWTZCcExSYU1aQmtyelQ5eml6XzlBbGkzRU5FWi0tVlhNRC0xUnNYTlU5LWpNbXNMTW1faGtPQjRpZXI4SWtOdW1NaDFTSnJEM2I5SmJhalBZOWFsX1ZWY3NTa2swMWd0UWJqOUdWNTgzakItWW4tcw&q=https%3A%2F%2Fgithub.com%2Fjoshmadakor1%2FAD_PS%2Farchive%2Frefs%2Fheads%2Fmaster.zip&v=MHsI8hJmggI
 
@@ -130,3 +132,15 @@ Then click on Start (windows icon) > Windows PowerShell > right-click Windows Po
 
 3rd Step: Turn off the security feature preventing the script from running, by typing Set-ExecutionPolicy Unrestricted > then click Yes to All.
 ![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/366a2dbc-b160-4a18-a59b-32bbfe91e482)
+
+4th Step: Change the directory so it runs the script from the file we downloaded. After this, you can type ls to view the file to verify that it is correct.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/aea53376-3d21-448d-8a12-d21e9ac59ffe)
+
+5th Step: Click run and then "Run Once" to run the script.
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/a6d96a9c-7a8d-4668-8e4b-89c2194ff5db)
+
+6th Step: Once it's complete, you can now see all of the users we created in the active directory!
+You can also find your account in the Active Directory.
+
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/464d8adb-10d5-4cd6-ab8e-c3babf08e8a5)
+![image](https://github.com/andrewsingleton2/Building-An-Active-Directory/assets/150304510/3f5ac6b6-7b70-47f5-a118-d666d8f078b2)
